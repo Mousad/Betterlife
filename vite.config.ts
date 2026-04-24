@@ -19,12 +19,10 @@ export default defineConfig({
     figmaAssetResolver(),
     react(),
   ],
-
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),
     },
   },
-
   assetsInclude: ['**/*.svg', '**/*.csv'],
 })
